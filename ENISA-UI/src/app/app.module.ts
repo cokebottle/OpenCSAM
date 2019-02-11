@@ -75,7 +75,6 @@ export function appConfigServiceFactory(provider: AppConfigService) {
   imports: [
     // angular modules
     CriteriaComponent,
-    SearchControlComponent,
     CovalentSearchModule,
     CommonModule,
     BrowserModule,
