@@ -63,6 +63,8 @@ export function appConfigServiceFactory(provider: AppConfigService) {
 
 @NgModule({
   declarations: [
+    CriteriaComponent,
+    SearchControlComponent,
     AppComponent,
     ArticleSearchComponent,
     SearchHomeComponent,
