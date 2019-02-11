@@ -51,8 +51,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppConfigService } from '../services/load-config.service';
 
 //importing the stuff
-import {CriteriaComponent} from "./criteria/criteria.component.ts";
-import {SearchControlComponent} from "./search-control/search-control.component.ts";
+import {CriteriaComponent} from "./criteria/criteria.component";
+import {SearchControlComponent} from "./search-control/search-control.component";
 
 const httpInterceptorProviders: Type<any>[] = [
   RequestInterceptor,
