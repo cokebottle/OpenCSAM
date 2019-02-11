@@ -63,8 +63,6 @@ export function appConfigServiceFactory(provider: AppConfigService) {
 
 @NgModule({
   declarations: [
-    CriteriaComponent,
-    SearchControlComponent,
     AppComponent,
     ArticleSearchComponent,
     SearchHomeComponent,
@@ -76,6 +74,8 @@ export function appConfigServiceFactory(provider: AppConfigService) {
   ], // directives, components, and pipes owned by this NgModule
   imports: [
     // angular modules
+    CriteriaComponent,
+    SearchControlComponent,
     CovalentSearchModule,
     CommonModule,
     BrowserModule,
