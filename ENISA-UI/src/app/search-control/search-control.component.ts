@@ -16,7 +16,8 @@ export class SearchControlComponent implements OnInit {
     private _searchService: SearchService,  
     private _router: Router,
     private _route: ActivatedRoute,
-            _global:Globals) { }
+//remove the keyword private  
+    public  _global:Globals) { }
 
   ngOnInit() {
     this.searchInputTerm = this._global.getSearchInput();
