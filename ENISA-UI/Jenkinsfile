@@ -6,6 +6,11 @@ properties([
 node {
   checkout scm
 
+  stage('Docker system prune') {
+    dir ('ENISA-UI') {
+      sh """docker system prune -f"""
+    }
+  }
   stage('Build docker image') {
     dir ('ENISA-UI') {
       sh """docker build -t webapp ."""
