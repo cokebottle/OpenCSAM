@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { RequestOptionsArgs, Headers } from '@angular/http';
-import { IHttpInterceptor } from '@covalent/http';
+import { IHttpInterceptor } from '@covalent/http-deprec';
 
 @Injectable()
 export class RequestInterceptor implements IHttpInterceptor {
