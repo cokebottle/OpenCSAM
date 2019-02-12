@@ -54,6 +54,7 @@ import { AppConfigService } from '../services/load-config.service';
 import {CriteriaComponent} from "./criteria/criteria.component";
 import {SearchControlComponent} from "./search-control/search-control.component";
 
+import { HttpInterceptorService, CovalentHttpModule } from '@covalent/http-deprec';
 
 const httpInterceptorProviders: Type<any>[] = [
   RequestInterceptor,
