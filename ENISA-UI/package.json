@@ -53,7 +53,7 @@
     "@covalent/core": "^2.0.0",
     "@covalent/dynamic-forms": "^2.0.0",
     "@covalent/highlight": "^2.0.0",
-    "@covalent/http": "2.0.0",
+    "@covalent/http-deprec": "2.0.0",
     "@covalent/markdown": "^2.0.0",
     "@swimlane/ngx-charts": "^7.3.0",
     "core-js": "^2.4.1",
