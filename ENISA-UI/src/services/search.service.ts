@@ -4,7 +4,7 @@ import { Criteria } from "./../app/model/criteria.model";
 
 import { Injectable } from "@angular/core";
 import { Response } from "@angular/http";
-import { HttpInterceptorService } from "@covalent/http";
+import { HttpInterceptorService } from "@covalent/http-deprec";
 import { HttpParams } from "@angular/common/http";
 import { Observable } from "rxjs";
 import { HttpClient, HttpHeaders } from "@angular/common/http";

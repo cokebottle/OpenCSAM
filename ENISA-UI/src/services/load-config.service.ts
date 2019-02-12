@@ -2,7 +2,7 @@ import { Globals } from './../app/globals';
 import { Observable } from 'rxjs/Rx';
 import { Injectable } from '@angular/core';
 import { Response } from '@angular/http';
-import { HttpInterceptorService } from '@covalent/http';
+import { HttpInterceptorService } from '@covalent/http-deprec';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Injectable()
