@@ -29,7 +29,7 @@ import {MatSelectModule} from '@angular/material/select';
 import { CovalentMediaModule } from '@covalent/core/media';
 import { CovalentLoadingModule } from '@covalent/core/loading';
 
-import { CovalentHttpModule, IHttpInterceptor } from '@covalent/http';
+//import { CovalentHttpModule, IHttpInterceptor } from '@covalent/http';
 
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
